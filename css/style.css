@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+}
+
+#mainshop {
+  position: relative;
+  min-height: 100vh;
+}
+
+.mainimage {
+  background: url(../img/headerimg.jpg) center center no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+}
