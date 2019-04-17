@@ -13,12 +13,20 @@ html {
   margin: 0 auto;
 }
 
+#navbar {
+  height: 40px;
+}
+
 #navbar ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+}
+
+#navbar ul li {
+  margin-top: 1%;
 }
 
 #navbar li a {
@@ -39,4 +47,8 @@ html {
   position: absolute;
   background-size: cover;
   z-index: -1;
+}
+
+.main_title {
+  padding-top: 300px;
 }
