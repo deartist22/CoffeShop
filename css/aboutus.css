@@ -1,0 +1,45 @@
+#aboutus {
+  height: 500px;
+  margin-top: 50px;
+}
+
+#aboutus .container {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+}
+
+#aboutus .aboutus_images {
+  width: 50%;
+  position: relative;
+}
+
+#aboutus .aboutus_images img {
+  width: 100%;
+  height: 100%;
+  border: 3px white solid;
+  box-shadow: -9px 10px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+#aboutus .aboutus_images img:nth-child(1) {
+  z-index: 1;
+  top: 50px;
+  left: 100px;
+  width: 60%;
+  height: 60%;
+  position: relative;
+}
+
+#aboutus .aboutus_images img:nth-child(2) {
+  z-index: 0;
+  top: 70px;
+  left: 90px;
+  width: 60%;
+  height: 60%;
+  transform: rotate(-20deg);
+  position: absolute;
+}
+
+#aboutus article {
+  width: 50%;
+}
