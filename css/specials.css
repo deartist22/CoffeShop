@@ -3,8 +3,7 @@
   margin-top: 50px;
 }
 
-#specials .container h2,
-#specials .container h3 {
+#specials .container .heading {
   text-align: center;
 }
 

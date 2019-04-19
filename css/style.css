@@ -2,6 +2,7 @@
 @import "aboutus.css";
 @import "specialrecipes.css";
 @import "specials.css";
+@import "menu.css";
 
 * {
   padding: 0;
@@ -35,7 +36,7 @@ p {
 header #navbar {
   width: 100%;
   position: fixed;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(253, 162, 70, 0.3);
   z-index: 5;
 }
 
