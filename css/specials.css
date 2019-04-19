@@ -1,5 +1,15 @@
 #specials {
-  height: 800px;
+  height: 700px;
+  margin-top: 50px;
+}
+
+#specials .container h2,
+#specials .container h3 {
+  text-align: center;
+}
+
+#specials .container h3 {
+  padding-bottom: 5px;
 }
 
 #specials .container .items {
@@ -62,4 +72,77 @@
   background-size: cover;
   grid-column: 4 / 5;
   grid-row: 2 / 3;
+}
+
+@media only screen and (max-width: 768px) {
+  #specials .container h2,
+  #specials .container h3 {
+    text-align: center;
+  }
+
+  #specials .container h3 {
+    padding-bottom: 5px;
+  }
+
+  #specials .container .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px;
+  }
+
+  #specials .container .special1 {
+    background: url(../img/gallery1.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  #specials .container .special2 {
+    background: url(../img/gallery2.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  #specials .container .special3 {
+    background: url(../img/gallery3.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  #specials .container .special4 {
+    background: url(../img/gallery4.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  #specials .container .special5 {
+    background: url(../img/gallery5.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  #specials .container .special6 {
+    background: url(../img/gallery6.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  #specials .container .special7 {
+    background: url(../img/gallery7.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  #specials .container .special8 {
+    background: url(../img/gallery8.jpg) center center no-repeat;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
 }
