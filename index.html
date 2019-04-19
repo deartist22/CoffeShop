@@ -4,6 +4,12 @@
     <title>Coffe for All...</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
@@ -12,21 +18,50 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav id="navbar">
-        <div class="container">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Recipe</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Delivery</a></li>
+    <nav class="navbar fixed-top navbar-expand-lg py-0">
+      <div class="container">
+        <a class="navbar-brand mr-0" href="#">Coffe for All...</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContentId"
+          aria-controls="#navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContentId">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link mx-5 text-white" href="#mainshop"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 text-white" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 text-white" href="#specialrecipes"
+                >Recipes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 text-white" href="#specials">Specials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 text-white" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 text-white" href="#delivery">Delivery</a>
+            </li>
           </ul>
         </div>
-        <!--Navbar Container-->
-      </nav>
-    </header>
+      </div>
+      <!--Navbar Container Div-->
+    </nav>
 
     <div id="mainshop">
       <video class="main_video_element" preload="auto" autoplay muted>
@@ -43,7 +78,7 @@
       <!--Main Container-->
     </div>
 
-    <div id="aboutus">
+    <div id="aboutus" class=" py-1 my-2">
       <div class="container">
         <div class="aboutus_images">
           <img src="img/about1.jpg" alt="" />
@@ -58,7 +93,6 @@
             at nisl placerat vehicula. Suspendisse elementum erat id efficitur
             dignissim.
           </p>
-          <br />
           <p>
             Etiam gravida lobortis hendrerit. Cras in enim vitae orci iaculis
             euismod. Nam at malesuada odio, a commodo odio. Duis sed est eros.
@@ -74,9 +108,9 @@
       </div>
     </div>
 
-    <div id="specialrecipes">
+    <div id="specialrecipes" class="py-1">
       <div class="container">
-        <article>
+        <article class="p-4">
           <h2>Special Recipes</h2>
           <h3>Taste of Precious</h3>
           <p>
@@ -87,7 +121,6 @@
             ultrices vulputate lorem ornare sed. Nunc fermentum dui maximus
             mattis mattis.
           </p>
-          <br />
           <p>
             Ut elementum velit nec neque tempor, sit amet posuere sem molestie.
             Nunc convallis sed turpis nec accumsan. Integer rhoncus aliquet
@@ -232,7 +265,12 @@
         <!--Menu items 3 container-->
       </div>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,59 +1,4 @@
-#menu {
-  background-color: #fda246;
-}
-
-#menu .container .heading {
-  text-align: center;
-}
-
-#menu h3 {
-  padding-bottom: 5px;
-}
-
-#menu ul li {
-  list-style-type: none;
-  padding-top: 20px;
-}
-
-#menu .menu_items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-}
-
-#menu .menu_items .menu_images {
-  width: 50%;
-}
-
-#menu .menu_items .menu_images img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-#menu .menu_items .menu_drinks {
-  background-color: white;
-  padding: 2%;
-  position: relative;
-  left: -30px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 31px 3px rgba(0, 0, 0, 0.51);
-}
-
-#menu .menu_items .menu_drinks:nth-child(1) {
-  position: relative;
-  left: 30px;
-}
-
-#menu ul li span:nth-of-type(1):after {
-  content: ". . . . . . . . . . . . . . . . . . . . . . . . . . ";
-}
-
-#menu ul span:nth-of-type(2)::before {
-  content: "$";
-}
-
-@media only screen and (max-width: 768px) {
+@media (min-width: 576px) {
   #menu .menu_items {
     display: flex;
     flex-direction: column;
@@ -88,5 +33,157 @@
     height: 31%;
     left: 88px;
     padding: 10px 20px 20px 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #menu .menu_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  #menu .menu_items .menu_images {
+    width: 100%;
+    position: relative;
+    top: 0px;
+  }
+
+  #menu .menu_items .menu_drinks {
+    font-size: 0.8rem;
+    position: absolute;
+    width: 65%;
+    height: 30%;
+    left: 88px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    padding: 10px 20px 20px 25px;
+    margin-top: -2px;
+  }
+
+  #menu .menu_items .menu_drinks:nth-child(1) {
+    font-size: 0.8rem;
+    position: absolute;
+    width: 65%;
+    height: 31%;
+    left: 88px;
+    padding: 10px 20px 20px 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  #menu {
+    background-color: #fda246;
+  }
+
+  #menu .container .heading {
+    text-align: center;
+  }
+
+  #menu h3 {
+    padding-bottom: 5px;
+  }
+
+  #menu ul li {
+    list-style-type: none;
+    padding-top: 20px;
+  }
+
+  #menu .menu_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  #menu .menu_items .menu_images {
+    width: 50%;
+  }
+
+  #menu .menu_items .menu_images img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  #menu .menu_items .menu_drinks {
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    left: -30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 31px 3px rgba(0, 0, 0, 0.51);
+  }
+
+  #menu .menu_items .menu_drinks:nth-child(1) {
+    position: relative;
+    left: 30px;
+  }
+
+  #menu ul li span:nth-of-type(1):after {
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  }
+
+  #menu ul span:nth-of-type(2)::before {
+    content: "$";
+  }
+}
+
+@media (min-width: 1200px) {
+  #menu {
+    background-color: #fda246;
+  }
+
+  #menu .container .heading {
+    text-align: center;
+  }
+
+  #menu h3 {
+    padding-bottom: 5px;
+  }
+
+  #menu ul li {
+    list-style-type: none;
+    padding-top: 20px;
+  }
+
+  #menu .menu_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  #menu .menu_items .menu_images {
+    width: 50%;
+  }
+
+  #menu .menu_items .menu_images img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  #menu .menu_items .menu_drinks {
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    left: -30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 31px 3px rgba(0, 0, 0, 0.51);
+  }
+
+  #menu .menu_items .menu_drinks:nth-child(1) {
+    position: relative;
+    left: 30px;
+  }
+
+  #menu ul li span:nth-of-type(1):after {
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  }
+
+  #menu ul span:nth-of-type(2)::before {
+    content: "$";
   }
 }
