@@ -1,0 +1,65 @@
+#specials {
+  height: 800px;
+}
+
+#specials .container .items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 300px;
+}
+
+#specials .container .special1 {
+  background: url(../img/gallery1.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#specials .container .special2 {
+  background: url(../img/gallery2.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#specials .container .special3 {
+  background: url(../img/gallery3.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#specials .container .special4 {
+  background: url(../img/gallery4.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+#specials .container .special5 {
+  background: url(../img/gallery5.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#specials .container .special6 {
+  background: url(../img/gallery6.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#specials .container .special7 {
+  background: url(../img/gallery7.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#specials .container .special8 {
+  background: url(../img/gallery8.jpg) center center no-repeat;
+  background-size: cover;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}

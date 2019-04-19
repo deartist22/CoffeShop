@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|PT+Serif:400,700");
 @import "aboutus.css";
 @import "specialrecipes.css";
+@import "specials.css";
 
 * {
   padding: 0;
