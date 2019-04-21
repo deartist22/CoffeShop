@@ -1,19 +1,15 @@
 #specialrecipes {
   background: url(../img/srecipe.jpg) center center no-repeat;
   background-size: cover;
-  height: 450px;
 }
 
 #specialrecipes article {
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 50%;
-  border-radius: 5px;
 }
 
 @media only screen and (max-width: 768px) {
   #specialrecipes {
-    height: 300px;
   }
 
   #specialrecipes article {
@@ -21,7 +17,6 @@
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
     width: 100%;
-    border-radius: 5px;
   }
 
   #specialrecipes article h2 {

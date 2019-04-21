@@ -1,15 +1,4 @@
-#aboutus {
-  height: 400px;
-}
-
-#aboutus .container {
-  display: flex;
-  height: 350px;
-  justify-content: center;
-}
-
 #aboutus .aboutus_images {
-  width: 50%;
   position: relative;
 }
 
@@ -22,49 +11,26 @@
 
 #aboutus .aboutus_images img:nth-child(1) {
   z-index: 1;
-  top: 50px;
-  left: 100px;
+  top: 30px;
+  left: 250px;
   width: 60%;
   height: 60%;
   position: relative;
 }
 
 #aboutus .aboutus_images img:nth-child(2) {
-  z-index: 0;
   top: 70px;
-  left: 90px;
+  left: 250px;
   width: 60%;
-  height: 60%;
+  height: 70%;
   transform: rotate(-20deg);
   position: absolute;
+  z-index: 0;
 }
 
 #aboutus article {
-  width: 50%;
+  width: 80%;
 }
 
 @media only screen and (max-width: 768px) {
-  #aboutus {
-    height: 280px;
-  }
-
-  #aboutus .aboutus_images {
-    display: none;
-  }
-
-  #aboutus article {
-    text-align: center;
-    width: 100%;
-  }
-  #aboutus article h2 {
-    font-size: 1.4rem;
-  }
-
-  #aboutus article h3 {
-    font-size: 1rem;
-  }
-
-  #aboutus article p {
-    font-size: 0.7rem;
-  }
 }

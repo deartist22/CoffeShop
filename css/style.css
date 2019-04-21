@@ -3,6 +3,8 @@
 @import "specialrecipes.css";
 @import "specials.css";
 @import "menu.css";
+@import "delivery.css";
+@import "footer.css";
 
 * {
   padding: 0;

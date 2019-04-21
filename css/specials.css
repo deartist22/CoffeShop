@@ -1,5 +1,4 @@
 #specials {
-  height: 700px;
   margin-top: 50px;
 }
 
@@ -11,62 +10,62 @@
   padding-bottom: 5px;
 }
 
-#specials .container .items {
+#specials .items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 300px 300px;
 }
 
-#specials .container .special1 {
+#specials .special1 {
   background: url(../img/gallery1.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
-#specials .container .special2 {
+#specials .special2 {
   background: url(../img/gallery2.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
 
-#specials .container .special3 {
+#specials .special3 {
   background: url(../img/gallery3.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
 }
 
-#specials .container .special4 {
+#specials .special4 {
   background: url(../img/gallery4.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 4 / 5;
   grid-row: 1 / 2;
 }
 
-#specials .container .special5 {
+#specials .special5 {
   background: url(../img/gallery5.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 
-#specials .container .special6 {
+#specials .special6 {
   background: url(../img/gallery6.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
 
-#specials .container .special7 {
+#specials .special7 {
   background: url(../img/gallery7.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
 
-#specials .container .special8 {
+#specials .special8 {
   background: url(../img/gallery8.jpg) center center no-repeat;
   background-size: cover;
   grid-column: 4 / 5;
@@ -78,67 +77,70 @@
   #specials .container h3 {
     text-align: center;
   }
-
-  #specials .container h3 {
-    padding-bottom: 5px;
+  #specials .heading h2 {
+    font-size: 1.4rem;
   }
 
-  #specials .container .items {
+  #specials .heading h3 {
+    font-size: 1rem;
+  }
+
+  #specials .items {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 150px 150px 150px;
   }
 
-  #specials .container .special1 {
+  #specials .special1 {
     background: url(../img/gallery1.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
 
-  #specials .container .special2 {
+  #specials .special2 {
     background: url(../img/gallery2.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
 
-  #specials .container .special3 {
+  #specials .special3 {
     background: url(../img/gallery3.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
 
-  #specials .container .special4 {
+  #specials .special4 {
     background: url(../img/gallery4.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
 
-  #specials .container .special5 {
+  #specials .special5 {
     background: url(../img/gallery5.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
   }
 
-  #specials .container .special6 {
+  #specials .special6 {
     background: url(../img/gallery6.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
   }
 
-  #specials .container .special7 {
+  #specials .special7 {
     background: url(../img/gallery7.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 1 / 2;
     grid-row: 4 / 5;
   }
 
-  #specials .container .special8 {
+  #specials .special8 {
     background: url(../img/gallery8.jpg) center center no-repeat;
     background-size: cover;
     grid-column: 2 / 3;
