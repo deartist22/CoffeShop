@@ -1,0 +1,32 @@
+footer {
+  background-color: #c98e48;
+  color: black;
+}
+
+footer input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  width: 230px;
+  color: black;
+}
+
+footer button {
+  padding: 0 5px;
+  background-color: black;
+  color: #c98e48;
+  border: 0;
+}
+
+::placeholder {
+  color: black;
+}
+
+footer .container .row a {
+  text-decoration: none;
+}
+
+footer .container .row a:link {
+  color: black;
+}

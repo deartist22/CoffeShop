@@ -9,9 +9,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #specialrecipes {
-  }
-
   #specialrecipes article {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
