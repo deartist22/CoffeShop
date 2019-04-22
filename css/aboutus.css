@@ -28,9 +28,20 @@
   z-index: 0;
 }
 
-#aboutus article {
-  width: 80%;
-}
-
 @media only screen and (max-width: 768px) {
+  #aboutus article {
+    text-align: center;
+  }
+
+  #aboutus article h2 {
+    font-size: 1.4rem;
+  }
+
+  #aboutus article h3 {
+    font-size: 1rem;
+  }
+
+  #aboutus article p {
+    font-size: 0.7rem;
+  }
 }

@@ -11,6 +11,9 @@ footer input {
   width: 230px;
   color: black;
 }
+footer input::placeholder {
+  color: black;
+}
 
 footer button {
   padding: 0 5px;
@@ -19,14 +22,42 @@ footer button {
   border: 0;
 }
 
-::placeholder {
-  color: black;
-}
-
 footer .container .row a {
   text-decoration: none;
+  position: relative;
 }
 
 footer .container .row a:link {
   color: black;
+}
+
+footer .container .row a:visited {
+  color: black;
+}
+
+footer .container .row .footer-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0%;
+  bottom: 0%;
+  background: #000;
+  transition: width 0.3s;
+}
+
+footer .container .row .footer-links a:hover::after {
+  width: 20%;
+}
+
+.footer-links-mobile .fa-facebook:hover {
+  color: #3b5998;
+}
+
+.footer-links-mobile .fa-twitter-square:hover {
+  color: #38a1f3;
+}
+
+.footer-links-mobile .fa-instagram:hover {
+  color: #d6249f;
 }

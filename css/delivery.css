@@ -1,0 +1,34 @@
+#delivery {
+}
+
+#delivery h3 {
+  font-size: 3rem;
+}
+
+#delivery input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  width: 230px;
+  color: black;
+  position: relative;
+}
+
+#delivery a i {
+  position: absolute;
+  top: 93px;
+  left: 668px;
+}
+
+#delivery input::placeholder {
+  color: black;
+}
+
+#delivery .container .row a {
+  text-decoration: none;
+}
+
+#delivery .container .row .input a:visited {
+  color: black;
+}
