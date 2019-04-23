@@ -37,9 +37,21 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
-.navbar {
-  background-color: black;
-  color: white;
+.navbar.scrolled {
+  background: #c98e48;
+  transition: background 500ms;
+}
+
+#mainNavbar {
+  font-size: 1.3rem;
+}
+
+#mainNavbar .nav-link {
+  color: black;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #fff;
 }
 
 #mainshop {

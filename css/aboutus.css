@@ -11,18 +11,18 @@
 
 #aboutus .aboutus_images img:nth-child(1) {
   z-index: 1;
-  top: 30px;
-  left: 250px;
+  top: 90px;
+  left: 105px;
   width: 60%;
   height: 60%;
   position: relative;
 }
 
 #aboutus .aboutus_images img:nth-child(2) {
-  top: 70px;
-  left: 250px;
+  top: 120px;
+  left: 109px;
   width: 60%;
-  height: 70%;
+  height: 85%;
   transform: rotate(-20deg);
   position: absolute;
   z-index: 0;

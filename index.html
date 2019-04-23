@@ -18,50 +18,34 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg py-0">
-      <div class="container">
-        <a class="navbar-brand mr-0" href="#">Coffe for All...</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarContentId"
-          aria-controls="#navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarContentId">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link mx-5 text-white" href="#mainshop"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-5 text-white" href="#aboutus">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-5 text-white" href="#specialrecipes"
-                >Recipes</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-5 text-white" href="#specials">Specials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-5 text-white" href="#menu">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-5 text-white" href="#delivery">Delivery</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!--Navbar Container Div-->
-    </nav>
+    	<nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark py-0 fixed-top">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#mainshop">HOME<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#specialrecipes">RECIPES</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#specials">SPECIALS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#menu">MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#delivery">DELIVERY</a>
+                  </li>
+            </ul>
+          </div>
+        </nav>
 
     <div id="mainshop">
       <video class="main_video_element" preload="auto" autoplay muted>
@@ -79,15 +63,16 @@
     </div>
 
     <div id="aboutus" class="my-5">
+      <div class="container">
       <div class="row">
-        <div class="d-none d-md-block col-md-6">
+        <div class="d-none d-sm-block col-md-6">
           <div class="aboutus_images">
             <img src="img/about1.jpg" alt="" />
             <img src="img/about2.jpg" alt="" />
           </div>
         </div>
         <div class="col-sm-12 col-md-6">
-          <article class="container">
+          <article>
             <h2>About Us</h2>
             <h3>We are tasty</h3>
             <p>
@@ -110,6 +95,7 @@
             </p>
           </article>
         </div>
+       </div>
       </div>
     </div>
 
@@ -159,10 +145,10 @@
     </div>
 
     <div id="menu" class="mt-5">
-      <div class="menu1"></div>
-      <div class="menu2">
-        <div class="menu_items mx-5">
-          <div class="menu_drinks pl-5">
+
+      <div class="menu1">
+        <div class="menu_items">
+          <div class="menu_drinks">
             <h2 class="pt-5">Drinks</h2>
             <ul>
               <li class="pt-3">
@@ -215,9 +201,9 @@
         <!--Menu items 1 container-->
       </div>
 
-      <div class="menu3">
+      <div class="menu2">
         <div class="menu_items">
-          <div class="menu_drinks pl-5">
+          <div class="container menu_drinks">
             <h2 class="pt-5">Food</h2>
             <ul>
               <li class="pt-3">
@@ -268,7 +254,6 @@
         </div>
         <!--Menu items 2 container-->
       </div>
-      <div class="menu4"></div>
     </div>
 
     <div id="delivery" class="text-black mt-5 py-5">
@@ -330,11 +315,16 @@
               <input type="text" placeholder="Enter your email" />
               <button>Subscribe</button>
             </form>
-            <a href="#" class="pr-3"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#" class="pr-3"
-              ><i class="fab fa-twitter-square fa-2x"></i
+            <div class="d-inline-block mr-4 backwhite">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          </div>
+          <div class="d-inline-block mr-4 backwhite">
+            <a href="#"><i class="fab fa-twitter-square fa-2x"></i
             ></a>
-            <a href="#" class="pr-3"><i class="fab fa-instagram fa-2x"></i></a>
+              </div>
+              <div class="d-inline-block backwhite">
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
           </div>
         </div>
       </div>
