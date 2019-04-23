@@ -46,8 +46,13 @@ p {
   font-size: 1.3rem;
 }
 
+#mainNavbar i {
+  color: black;
+}
+
 #mainNavbar .nav-link {
   color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 #mainNavbar .nav-link:hover {
