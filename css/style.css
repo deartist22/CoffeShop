@@ -37,6 +37,11 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.btn-delivery:hover {
+  color: black;
+  background-color: white;
+}
+
 .navbar.scrolled {
   background: #c98e48;
   transition: background 500ms;
@@ -47,11 +52,11 @@ p {
 }
 
 #mainNavbar i {
-  color: black;
+  color: white;
 }
 
 #mainNavbar .nav-link {
-  color: black;
+  color: white;
   font-family: "Montserrat", sans-serif;
 }
 
